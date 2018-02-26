@@ -1,19 +1,22 @@
 **简要描述** 
-- addFollow添加关注
+- modifyMateNote修改结伴游
 
 **版本信息**
 - 1.0
 
 **请求URL** 
-- `/follow/addFollow `
+- `/mateNote/modifyMateNote `
 
 **参数** 
 
 |参数名|必选|类型|说明|
 |:---- |:---   |:---|:----- |
+|id |是 | Long | 结伴游ID |
 |userId |是 | Long | 用户ID |
-|followId |是 | Long | 游记ID |
-
+|title |是 | String |  标题 |
+|content |是 | String |  内容 |
+|place |是 | String |  约游的地方 |
+|phone |是 | String |  联系方式 |
 
 **请求示例**
 
@@ -22,8 +25,12 @@
     "reqId": "14343543543254",
     "timestamp": 1501731917705,
     "param": {
+    	"id":1,
     	"userId":1,
-    	"followId":2
+    	"title":"从杭州到嘉兴",
+    	"content":"5月1号出发",
+    	"place":"嘉兴",
+    	"phone":"15985457812"
     }
 }
 ```

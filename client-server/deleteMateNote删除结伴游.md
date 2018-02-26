@@ -1,19 +1,17 @@
 **简要描述** 
-- addFollow添加关注
+- deleteMateNote删除结伴游
 
 **版本信息**
 - 1.0
 
 **请求URL** 
-- `/follow/addFollow `
+- `/mateNote/deleteMateNote `
 
 **参数** 
 
 |参数名|必选|类型|说明|
 |:---- |:---   |:---|:----- |
-|userId |是 | Long | 用户ID |
-|followId |是 | Long | 游记ID |
-
+|_ |是 | Long | 结伴游ID |
 
 **请求示例**
 
@@ -21,10 +19,7 @@
 {
     "reqId": "14343543543254",
     "timestamp": 1501731917705,
-    "param": {
-    	"userId":1,
-    	"followId":2
-    }
+    "param":1
 }
 ```
 
