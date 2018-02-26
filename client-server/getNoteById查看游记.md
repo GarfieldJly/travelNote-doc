@@ -44,14 +44,12 @@
               {
                   "noteId": 1,
                   "commentUserId": 2,
-                  "floor": 1,
                   "comment": "风景好漂亮",
                   "commentName": "treezhu"
               },
               {
                   "noteId": 1,
                   "commentUserId": 1,
-                  "floor": 2,
                   "comment": "是的，有时间可以去游玩",
                   "commentName": "garfield"
               }
@@ -75,5 +73,4 @@
 |noteId |Long |游记id |
 |commentUserId |Long |留言用户id|
 |commentName |String |留言用户名称 |
-|floor |Long |楼层|
 |comment |String |留言内容 |
