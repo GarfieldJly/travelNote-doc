@@ -11,8 +11,7 @@
 
 |参数名|必选|类型|说明|
 |:---- |:---   |:---|:----- |
-|userId |是 | Long | 用户ID |
-|followId |是 | Long | 游记ID |
+|followId |是 | Long | 关注的用户id |
 
 
 **请求示例**
@@ -21,10 +20,7 @@
 {
     "reqId": "14343543543254",
     "timestamp": 1501731917705,
-    "param": {
-    	"userId":1,
-    	"followId":2
-    }
+    "param": 2
 }
 ```
 

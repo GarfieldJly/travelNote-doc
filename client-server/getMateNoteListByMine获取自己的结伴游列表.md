@@ -1,11 +1,11 @@
 **简要描述** 
-- getMateNoteList获取结伴游列表
+- getMateNoteListByMine获取自己的结伴游列表
 
 **版本信息**
 - 1.0
 
 **请求URL** 
-- `/mateNote/getMateNoteList `
+- `/mateNote/getMateNoteListByMine `
 
 **参数** 
 

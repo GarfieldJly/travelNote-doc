@@ -11,7 +11,6 @@
 
 |参数名|必选|类型|说明|
 |:---- |:---   |:---|:----- |
-|userId |是 | Long | 用户ID |
 |title |是 | String |  标题 |
 |content |是 | String |  内容 |
 |place |是 | String |  约游的地方 |
@@ -24,7 +23,6 @@
     "reqId": "14343543543254",
     "timestamp": 1501731917705,
     "param": {
-    	"userId":1,
     	"title":"从杭州到西安",
     	"content":"5月1号出发",
     	"place":"西安",

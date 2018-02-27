@@ -12,7 +12,6 @@
 |参数名|必选|类型|说明|
 |:---- |:---   |:---|:----- |
 |id |是 | Long | 结伴游ID |
-|userId |是 | Long | 用户ID |
 |title |是 | String |  标题 |
 |content |是 | String |  内容 |
 |place |是 | String |  约游的地方 |
@@ -26,7 +25,6 @@
     "timestamp": 1501731917705,
     "param": {
     	"id":1,
-    	"userId":1,
     	"title":"从杭州到嘉兴",
     	"content":"5月1号出发",
     	"place":"嘉兴",

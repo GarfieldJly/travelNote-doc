@@ -12,7 +12,6 @@
 |参数名|必选|类型|说明|
 |:---- |:---   |:---|:----- |
 |id |是 | Long | 游记ID |
-|userId |是 | Long | 用户ID |
 |title |是 | String | 游记title |
 |content |是 | String | 游记内容 |
 
@@ -25,7 +24,6 @@
     "param": {
     	"id":1,
     	"title":1,
-    	"userId":3,
     	"content":"bbb"
     }
 }
