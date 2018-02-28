@@ -1,17 +1,17 @@
 **简要描述** 
-- addFollow添加关注
+- isFollow查询是否关注
 
 **版本信息**
 - 1.0
 
 **请求URL** 
-- `/follow/addFollow `
+- `/follow/isFollow `
 
 **参数** 
 
 |参数名|必选|类型|说明|
 |:---- |:---   |:---|:----- |
-|- |是 | Long | 关注的用户id |
+|- |是 | Long | 用户id |
 
 
 **请求示例**
@@ -33,7 +33,7 @@
     "code": 0,
     "message": "ok",
     "reqId": "14343543543254",
-    "result": null
+    "result": true
 }
 ```
 

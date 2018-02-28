@@ -20,15 +20,7 @@
 {
 	"reqId": "14343543543254",
 	"timestamp": 1501731917705,
-	"param": {
-		"current": 1,
-		"pageSize": 10,
-		"sortField": "created_at",
-		"sortOrder": "ASC",
-		"data": {
-			"userId":1
-		}
-	}
+	"param": 2
 }
 ```
 

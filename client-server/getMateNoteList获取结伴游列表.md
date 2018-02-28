@@ -19,10 +19,7 @@
 {
 	"reqId": "14343543543254",
 	"timestamp": 1501731917705,
-	"param": {
-		"current": 1,
-		"pageSize": 10
-	}
+	"param": null
 }
 ```
 

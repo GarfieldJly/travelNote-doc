@@ -6,12 +6,10 @@
 
 **请求URL** 
 - `/note/getNoteList `
+- 传 'X-Auth-Token'
 
 **参数** 
-
-|参数名|必选|类型|说明|
-|:---- |:---   |:---|:----- |
-|userId |是 | Long | 用户ID |
+- 无
 
 
 **请求示例**
@@ -20,15 +18,7 @@
 {
 	"reqId": "14343543543254",
 	"timestamp": 1501731917705,
-	"param": {
-		"current": 1,
-		"pageSize": 10,
-		"sortField": "created_at",
-		"sortOrder": "ASC",
-		"data": {
-			"userId":1
-		}
-	}
+	"param": null
 }
 ```
 
